@@ -1,3 +1,12 @@
 # raise a simple exception for inspection.
 
-# modeled after https://docs.python.org/3/tutorial/errors.html
+def main():
+    res = []
+    for exp in [-520, -100, 0, 100, 520]:
+        val = float(10 ** exp)
+        res.append(val)
+    return res
+
+if __name__ == '__main__':
+    res = main()
+    print(res)
