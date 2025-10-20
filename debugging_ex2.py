@@ -1,4 +1,7 @@
-# run a non-working code to gain experience debugging.
+# Run a non-working code to gain experience debugging.
+
+# Run the debugger and make changes until the code is bug-free, according to the
+# docstring.
 
 def check_3string_sequence(seq):
     '''
@@ -14,7 +17,9 @@ def check_3string_sequence(seq):
     is_unique: bool
         True for strings with 3 unique items, False otherwise
     '''
-    # First, check to make sure that all items in the sequence are strings
+    # First, check sequence length
+    assert len(seq) == 3
+    # Next, check to make sure that all items in the sequence are strings
     for item in seq:
         assert isinstance(item, str)
     # Unpack arguments and check sequence

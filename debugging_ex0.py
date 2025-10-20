@@ -1,4 +1,6 @@
-# raise a simple exception for inspection.
+# Raise a simple exception for inspection.
+
+# What line is it on? What does it mean? Is it fixable?
 
 def main():
     res = []

@@ -1,4 +1,4 @@
-# run a working code to get familiar with running a debugger.
+# Run a working code to get familiar with running a debugger.
 
 def fib(N):
     '''
